@@ -13,11 +13,6 @@ if (hour < 18) {
 
 document.getElementById("demo").innerHTML = greeting;
 
-function laskealennettuhinta (hinta) {
-  let alennettuhinta = hinta - 50;  
-  return alennettuhinta;
-}
-document.getElementById("demo2").innerHTML = laskealennettuhinta(100)
 
 const haeNappi = document.getElementById("haeNappi");
 const tulosTeksti = document.getElementById("tulosTeksti");
